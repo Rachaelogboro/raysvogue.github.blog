@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>About - Rays Vogue</title>
+    <link rel="stylesheet" href="blog.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Rays Vogue blog</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+
+        <p>Thank you for your interest in our blog. We would be delighted to answer any questions you
+            may have, or attend to any complaints or feedback. Please feel free to reach out to us using the contact
+            information below:<br>
+
+            RaysVogue blog is available 24/7 to entertain and inform you. Please don't hesitate to engage on our site.
+            We
+            provide entertainment for all.<br>
+
+            Thank you for visiting our website. please engage in our posts and sign up.<br>
+        <p>For any advertisemenr or features, please use the contact information below:</p>
+
+
+        <ul>
+            <li>Email: raysvogue@gmail.com</li>
+            <li>Phone: 4372623244</li>
+            <li>Address: 268 philip street, Waterloo, Ontario</li>
+        </ul>
+    </section>
+
+
+
+    <p>Have questions, suggestions, or feedback? We'd love to hear from you! Fill out the form below and we'll get
+        back to you as soon as possible.</p>
+    <style>
+        .form-container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .form-container label,
+        .form-container input,
+        .form-container textarea,
+        .form-container button {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+
+
+    <div style="border: 1px solid #ccc; padding: 20px; width: 300px; float: left;">
+        <form action="submit_form.php" method="POST" style="display: flex; flex-direction: column;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Rays Vogue. All rights reserved.</p>
+    </footer>
+
+</html>
